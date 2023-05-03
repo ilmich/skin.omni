@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.omni"
-  version="2.1.0"
+  version="3.0.0Alpha2"
   name="Omni"
-  provider-name="braz">
+  provider-name="ilmich">
 	<requires>
-		<import addon="xbmc.gui" version="5.13.0"/>
-		<import addon="script.toolbox" version="1.0.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.toolbox" version="2.0.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Omni by braz</summary>
-		<summary lang="en_US">Omni by braz</summary>
+		<summary lang="en_GB">Omni by ilmich</summary>
+		<summary lang="en_US">Omni by ilmich</summary>
 		<description lang="en_GB">A Kodi skin with an omnipresent menu.</description>
 		<description lang="en_US">A Kodi skin with an omnipresent menu.</description>
 		<platform>all</platform>
@@ -21,7 +21,7 @@
 		<forum>https://forum.kodi.tv/forumdisplay.php?fid=271</forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/braz96/skin.omni</source>
+		<source>https://github.com/ilmich/skin.omni</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -36,6 +36,6 @@
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 			<screenshot>resources/screenshot-10.jpg</screenshot>
 		</assets>
-		<news>2.1.0[CR]- Complete redesign of home window with static menu and widgets, can enable/disable items in skin settings.[CR]- Many other fixes and minor changes.</news>
+		<news>3.0.0[CR]- Port to Matrix/Nexus[CR]- Added support for Libreelec Settings Addon</news>
 	</extension>
 </addon>

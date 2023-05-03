@@ -764,7 +764,7 @@
             </item>
             <item id="7">
                 <label>$LOCALIZE[13000]</label>
-                <label2>$LOCALIZE[15088] • $LOCALIZE[14094] • $LOCALIZE[14095]</label2>
+                <label2>$LOCALIZE[131] • $LOCALIZE[292] • $LOCALIZE[14094] • $LOCALIZE[14095]</label2>
                 <icon>DefaultProgram.png</icon>
                 <onclick>ActivateWindow(SystemSettings)</onclick>
             </item>
@@ -785,6 +785,13 @@
                 <label2>$LOCALIZE[24038] • $LOCALIZE[24020] • $LOCALIZE[24069]</label2>
                 <icon>DefaultAddon.png</icon>
                 <onclick>ActivateWindow(AddonBrowser)</onclick>
+            </item>
+	    <item id="11">
+                <label>Libreelec</label>
+                <label2>$LOCALIZE[705] • $LOCALIZE[24018]</label2>		
+                <icon>libreelec.png</icon>
+                <onclick>RunAddon(service.libreelec.settings)</onclick>
+		<visible>System.AddonIsEnabled(service.libreelec.settings)</visible>
             </item>
             
         </content>
