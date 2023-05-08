@@ -50,6 +50,10 @@
                     <control type="button" id="6">
                         <description>Install/UnInstall Addon button</description>
                         <include>HiddenObject</include>
+			<!-- hack for lost focus during window init          -->
+			<!-- basically kodi set focus on this hidden control -->
+			<!-- instead of the one with buttons -->
+			<onfocus>setFocus(9000)</onfocus>
                     </control>
                     <control type="togglebutton" id="7">
                         <description>Enable/Disable Addon button</description>
@@ -64,6 +68,10 @@
                         <description>Configure Addon</description>
                         <label>24020</label>
                         <include>HiddenObject</include>
+			<!-- hack for lost focus during window init          -->
+			<!-- basically kodi set focus on this hidden control -->
+			<!-- instead of the one with buttons -->
+			<onfocus>setFocus(9000)</onfocus>
                     </control>
                     <control type="button" id="12">
                         <description>Open Addon button</description>
