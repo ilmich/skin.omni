@@ -155,28 +155,8 @@
                     </focusedlayout>
                 </control>
                 <control type="group">
-                    <description>Small Media Window</description>
                     <left>1016</left>
                     <top>10</top>
-                    <control type="image">
-                        <left>0</left>
-                        <top>0</top>
-                        <width>740</width>
-                        <height>416</height>
-                        <texture>overlays/diffuse-overlay.png</texture>
-                        <include>VisibleFadeEffect</include>
-                    </control>
-                    <control type="videowindow">
-                        <left>0</left>
-                        <top>0</top>
-                        <width>740</width>
-                        <height>416</height>
-                        <visible>Player.HasVideo + !SlideShow.IsActive</visible>
-                    </control>
-                </control>
-                <control type="group">
-                    <left>1016</left>
-                    <top>475</top>
                     <control type="label">
                         <left>0</left>
                         <top>0</top>
@@ -199,7 +179,7 @@
                         <label>$INFO[Container(50).ListItem.Plot]</label>
                         <top>120</top>
                         <width>740</width>
-                        <height>244</height>
+                        <height>680</height>
                         <font>font15_textbox</font>
                         <include>AutoscrollDefault</include>
                     </control>
